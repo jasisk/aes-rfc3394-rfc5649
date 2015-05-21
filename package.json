@@ -1,0 +1,28 @@
+{
+  "name": "aes-rfc3394-rfc5649",
+  "version": "1.0.0",
+  "description": "NodeJS implementation of the AES Key Wrap Algorithms (rfc3394 / rfc5649)",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --optional runtime",
+    "test": "babel-node test/rfc5649.js"
+  },
+  "keywords": [
+    "aes",
+    "encryption",
+    "key",
+    "wrap",
+    "rfc3394",
+    "rfc5649",
+    "padding"
+  ],
+  "author": "Jean-Charles Sisk <jasisk@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.4.5",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.4.5"
+  }
+}
